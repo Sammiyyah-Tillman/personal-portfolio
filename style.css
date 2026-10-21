@@ -1,19 +1,19 @@
 h1 {
-    color: teal;
+    color: #CCCCFF;
     margin: 10px;
     padding: 10px;
-    border: 1px solid teal;
+    border: 1px #C8A2C8;
 }
 
 .intro {
     margin: 10px;
     padding: 10px;
-    border: 1px solid teal;
+    border: 1px #C8A2C8;
 }
 
 #hero {
     padding: 10px;
     margin: 20px;
-    border: 2px solid teal;
+    border: 2px #C8A2C8;
 }
 
