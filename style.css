@@ -37,15 +37,14 @@ footer {
     padding: 16px;
 }
 header {
-    background-color: #C8D8F0;
+    background-color: #FFF5D6;
     padding: 20px;
 }
 header h1 {
     color: #A7A8E8;
     margin-bottom: 20px;
 }
-nav a:link,
-    nav a:visited {
+nav a. {
     color: #FFF5D6;
 }
 
