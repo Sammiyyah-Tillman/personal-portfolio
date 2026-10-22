@@ -30,6 +30,7 @@ body {
     border: 2px solid #A7A8E8;
     padding: 24px;
     margin-bottom: 24px;
+    min-height: 100px;
 }
 footer {
     color: #D9D9FF;
