@@ -44,7 +44,8 @@ header h1 {
     color: #A7A8E8;
     margin-bottom: 20px;
 }
-nav a. {
+nav a:link,
+    nav a:visited {
     color: #FFF5D6;
 }
 
