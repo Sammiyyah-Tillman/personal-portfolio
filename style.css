@@ -23,6 +23,24 @@ h3 {
     color: #CCCCFF;
 }
 body {
-    background-color: #D9D9FF;
+    background-color: #FFF5D6;
     color: #CCCCFF;
 }
+.homebox {
+    border: 2px solid #A7A8E8;
+    padding: 24px;
+    margin-bottom: 24px;
+}
+footer {
+    color: #D9D9FF;
+    padding: 16px;
+}
+header {
+    background-color: #C8D8F0;
+    padding: 20px;
+}
+header h1 {
+    color: #A7A8E8;
+    margin-bottom: 20px;
+}
+
