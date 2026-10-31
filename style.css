@@ -47,4 +47,23 @@ header h1 {
 nav a. {
     color: #FFF5D6;
 }
+@media screen and (min-width:768px) {
+    main{
+        display: grid;
+        grid-template-columns:
+    repeat(2, minimax(0, 1fr));
+        gap: 16px;
+    }
+    section {
+        margin:8px 0;
+    }
+}
 
+@media screen and (min-width: 1200px) {
+    main {
+        grid-template-colums:
+    repeat(3, minmax(0, 1fr));
+        max-width: 1200px;
+        margin: 24px auto;
+    }
+}
