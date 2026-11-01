@@ -70,8 +70,3 @@ nav a {
         margin: 24px auto;
     }
 }
-main {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
