@@ -2,19 +2,19 @@ h1 {
     color: #CCCCFF;
     margin: 10px;
     padding: 10px;
-    border: 2px #78B7B5;
+    border: 2px solid #78B7B5;
 }
 
 .intro {
     margin: 10px;
     padding: 10px;
-    border: 2px  #78B7B5;
+    border: 2px solid #78B7B5;
 }
 
 #hero {
     padding: 10px;
     margin: 20px;
-    border: 2px  #78B7B5;
+    border: 2px solid #78B7B5;
 }
 h2 {
     color: #CCCCFF;
@@ -48,7 +48,7 @@ header h1 {
     color: #A7A8E8;
     margin-bottom: 20px;
 }
-nav a. {
+nav a {
     color: #FFF5D6;
 }
 @media screen and (min-width:768px) {
@@ -62,7 +62,6 @@ nav a. {
         margin:8px 0;
     }
 }
-
 @media screen and (min-width: 1200px) {
     main {
         grid-template-colums:
@@ -71,4 +70,8 @@ nav a. {
         margin: 24px auto;
     }
 }
-
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
