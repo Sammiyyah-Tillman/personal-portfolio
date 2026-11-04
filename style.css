@@ -1,38 +1,38 @@
 h1 {
-    color: #CCCCFF;
+    color: #A7A8E8;
     margin: 10px;
     padding: 10px;
-    border: 4px solid #CCCCFF;
+    border: 4px solid #A7A8E8;
 }
 
 .intro {
     margin: 10px;
     padding: 10px;
-    border: 4px solid #CCCCFF;
+    border: 4px solid #A7A8E8;
 }
 
 #hero {
     padding: 10px;
     margin: 20px;
-    border: 4px solid #CCCCFF;
+    border: 4px solid #A7A8E8;
     grid-column: 1 / -1;
 }
 h2 {
-    color: #CCCCFF;
+    color: #A7A8E8;
 }
 h3 {
-    color: #CCCCFF;
+    color: #A7A8E8;
 }
 body {
     background-color: #FFF5D6;
-    color: #CCCCFF;
+    color: #A7A8E8;
     font-family: 'Nunito', sans-serif;
 }
   h1, h2, h3 {
         font-family: 'Dancing Script', cursive;
   }
 .home-box {
-    border: 4px solid #CCCCFF;
+    border: 4px solid  #A7A8E8;
     padding: 24px;
     margin-bottom: 24px;
     min-height: 100px;
@@ -50,7 +50,7 @@ header h1 {
     margin-bottom: 20px;
 }
 nav a {
-    color: #CCCCFF;
+    color:  #A7A8E8;
 }
 @media screen and (min-width:768px) {
     main{
