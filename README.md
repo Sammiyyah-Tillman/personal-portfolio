@@ -10,4 +10,4 @@ No WAVE errors were detected.
 No fixes were necessary.
 
 All three pages passed the WAVE checks with 0 detected errors. 
-I reviewed my website's colors to make sure the text is easy to read against backgrounds.
+I reviewed my website's colors to make sure the text is easy to read against background.
