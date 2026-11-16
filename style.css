@@ -129,9 +129,3 @@ section {
 .project-card p {
   line-height: 1.6;
 }
-
-@media screen and (max-width: 768px) {
-  .project-grid {
-    grid-template-columns: 1fr;
-  }
-}
