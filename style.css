@@ -4,7 +4,6 @@ h1 {
     padding: 10px;
     border: 4px solid #4B4B9A;
 }
-
 .intro {
     margin: 10px;
     padding: 10px;
@@ -65,7 +64,7 @@ nav a {
         margin: 24px auto;
 }
 section {
-  background-color: #ffffff;
+  background-color: #E6E6E6;
   border: 4px solid #4B4B9A;
   padding: 20px;
   margin: 16px 0;
@@ -100,8 +99,8 @@ section {
 .project-card {
     flex: 0 1 250px;
     border: 4px solid #4B4B9A
-    passing: 20px;
-    background-color: #ffffff;
+    padding: 20px;
+    background-color: #E6E6E6;
     border-radius: 8px;
 }
 main form {
@@ -113,7 +112,7 @@ main fieldset {
   border-radius: 6px;
   padding: 15px;
   margin-bottom: 15px;
-  background-color: #ffffff;
+  background-color: #E6E6E6;
 }
 
 main legend {
@@ -153,7 +152,7 @@ main textarea:focus {
 
 main button[type="submit"] {
   background-color: #4B4B9A;
-  color: #ffffff;
+  color: #E6E6E6;
   padding: 10px 20px;
   border: 4px solid #4B4B9A;
   border-radius: 4px;
