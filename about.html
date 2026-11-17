@@ -41,6 +41,43 @@
             <p>My goal is to continue mastering HTML, CSS, and modern web tools so I can build a strong career in web development.</p>
         </section>
         <img src="image_d5b11def.jpg" alt="Cosmic Microphone" class="mic-img">
+        <section class="home-box">
+            <h2>Contact Me</h2>
+            <form action="#" method="POST">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                     <div style="margin-bottom: 10px;">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                     </div>
+                    <div style="margin-bottom: 10px;">
+                        <label for="email">Email:</label>
+                        <input type="email" id=email" name="email" required>
+                    </div>
+                    <div style="margin-bottom: 10px;">
+                        <label for="subject">Subject:</label>
+                        <input type="text" id=subject" name="subject" required>
+                    </div>
+                    <fieldset style="border: none; padding: 0; margin-bottom: 10px;">
+                        <legend>Preferred Contact Method:</legend>
+                    <div>
+                        <input type="radio" id="pref-email" name="contact-pref" value="email" checked>
+                        <label for="pref-email">Email</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="pref-phone" name="contact-pref" value="phone">
+                        <label for="pref-phone">Phone</label>
+                    </div>
+                    </fieldset>
+          <div style="margin-bottom: 10px;">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+        </fieldset>
+    <button type="submit" style="margin-top: 10px;">Submit</button>
+      </form>
+    </section>
+                </fieldset>
     </main>
     <footer>
         <p></p>
