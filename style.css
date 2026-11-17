@@ -90,9 +90,12 @@ section {
   flex-shrink: 0;
   border-radius: 8px;
 }
-.projects-page {
-  display: block;
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 20px;
+.project-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.project-card {
+    flex: 0 1 250px;
 }
