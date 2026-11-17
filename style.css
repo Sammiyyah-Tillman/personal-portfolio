@@ -100,3 +100,64 @@ section {
 .project-card {
     flex: 0 1 250px;
 }
+main form {
+  margin-top: 20px;
+}
+
+main fieldset {
+  border: 3px solid #48489A; 
+  border-radius: 6px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #ffffff;
+}
+
+main legend {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.2rem;
+  color: #48489A;
+  font-weight: bold;
+  padding: 0 5px;
+}
+
+main label {
+  display: block;
+  margin-bottom: 5px;
+  color: #48489A;
+  font-weight: 600;
+}
+
+main input[type="text"],
+main input[type="email"],
+main textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 2px solid #48489A;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+main input[type="text"]:focus,
+main input[type="email"]:focus,
+main textarea:focus {
+  outline: none;
+  border-color: #48489A;
+  box-shadow: 0 0 5px rgba(72, 72, 154, 0.4);
+}
+
+main button[type="submit"] {
+  background-color: #48489A;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: 2px solid #48489A;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+}
+
+main button[type="submit"]:hover {
+  opacity: 0.9;
+}
